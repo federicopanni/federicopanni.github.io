@@ -53,7 +53,7 @@ body {
 
 #nav_wrapper ul li:hover {
 
-	background: red;
+	background: rgb(102,235,42);
 	transition: all 0.45s;
 
 
