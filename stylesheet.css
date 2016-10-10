@@ -1,0 +1,88 @@
+body {
+
+
+	font-family: Quicksand;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 17px;
+}
+
+#nav{
+
+	width: 100%;
+	height: 768px;
+	background: url(velcro.jpg);
+	background-size: cover;
+}
+
+#nav_wrapper{
+
+	height: 85px;
+	width: 100%;
+	background: black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	text-align: center;
+	opacity: 0.7;
+	filter: alpha (opacity=70); /*IE8 earlier */
+
+}
+
+#nav_wrapper ul li {
+
+
+	list-style: none;
+	display: inline;
+	font-weight: normal;
+	padding: 20px;
+
+
+
+}
+
+#nav_wrapper a {
+
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+#nav_wrapper ul li:hover {
+
+	background: red;
+	transition: all 0.45s;
+
+
+
+}
+
+#footer {
+    height: 70px;
+    width: 100%;
+	text-align: center;
+
+	background-color: rgb(20,20,20);
+	
+	display: table;  overflow: hidden;
+
+	
+
+}
+#footer p {
+
+	color: white;
+	font-size: 16px;
+	font-style: thin;
+    text-align:center; 
+ 
+    
+  display: table-cell; 
+  vertical-align: middle;
+
+
+
+}
