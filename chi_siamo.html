@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+
+ <title> Chi siamo </title>
+ <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+<script type="text/javascript">
+
+
+testofede="<span id='testoinserito'>Sono una persona curiosa ed intraprendente, sono affascinato dalla tecnologia e amo mettermi in gioco in contesti differenti.<br>Una qualit&agrave; che mi appartiene &egrave; senza dubbio la versatilit&agrave;, sono sempre alla ricerca di nuovi stimoli e sfide.Ascolto buona musica, mi piacciono le serie TV e andare al bar con gli amici.<br>Credo di poter portare nel mio gruppo creativit&agrave; e dinamicit&agrave;.</span>"
+
+testopie="<span id='testoinserito'>Profondamente innamorato della cultura hip hop, graffiti e rap sono le mie ragioni di vita. Mi diletto nella modellazione 3D ma in fin dei conti passo il tempo ad ammirare lavori altrui attraverso i videogiochi. Sono testardo, iperattivo e penso che dormire sia uno spreco di tempo.<br>Dalla sperduta Valle d&rsquo;Aosta a Milano per trasformare una passione in un lavoro.</span>"
+
+testogabri="<span id='testoinserito'>Amo lavorare in gruppo e confrontarmi con le persone che ho accanto,<br>da cui cerco di trovare spunti sempre differenti per crescere e migliorare me stesso. Nonostante all'apparenza sia una persona introversa, mi metto sempre in gioco e cerco di affrontare le situazioni con determinazione e positivit&agrave;. Amo praticare diversi sport, anche estremi, e mi piace stare al contatto con la natura. In futuro mi piacerebbe occuparmi di composizioni audiovisive e animazione digitale.</span>"
+
+testonoce="<span id='testoinserito'>Mi definisco una ragazza positiva, solare e determinata. Sono consumatrice seriale di storie: mi piace tessere relazioni con le persone, sfogliarle come se fossero libri infiniti. Scrivo per vocazione, adoro i colori e le parole. Il mio secondo paio di occhi &egrave; una reflex con la quale regalo Bellezza da (salva) guardare. Credo nel silenzio di prima mattina e in una tazza di t&egrave; a qualsiasi ora del giorno. In un gruppo sono colei che porta motivazione e biscotti.</span>"
+
+testomarse="<span id='testoinserito'>Sono profondamente affascinato dai videogames, dal modo in cui raccontano storie e che ogni volta che la vivi sia diversa dall'altra. Sono una persona testarda ma amo imparare da chi ne sa pi&ugrave; di me. Sono di poche parole ma metto me stesso in tutto quello che faccio e spero di contagiare il mio gruppo con la mi voglia di fare.</span>"
+	
+
+
+function fede() 
+
+       {document.getElementById('testo1').innerHTML=testofede;}
+
+
+function pie() 
+
+      {document.getElementById('testo2').innerHTML=testopie;}
+
+function gabri() 
+
+      {document.getElementById('testo5').innerHTML=testogabri;}  
+
+function noce() 
+
+      {document.getElementById('testo3').innerHTML=testonoce;} 
+
+function marse() 
+
+      {document.getElementById('testo4').innerHTML=testomarse;} 
+
+
+
+function pulisci1() { document.getElementById('testo1').innerHTML='Federico Panni';}
+function pulisci2() { document.getElementById('testo2').innerHTML='Pietro Perret';}
+function pulisci3() { document.getElementById('testo3').innerHTML='Noemi Gottardi';}
+function pulisci4() { document.getElementById('testo4').innerHTML='Marcello Maffi';}
+function pulisci5() { document.getElementById('testo5').innerHTML='Gabriele Wiedenmann';}
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+ </head>
+
+
+ <body>
+
+
+
+
+<head>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ 	
+ </head>
+
+  
+
+   
+
+        <div id="nav_wrapper"><br>
+
+           <ul>
+           	
+           	  <li> <a href="homepage.html">Home</a></li>
+              <li> <a href="#">Prodotti</a></li>
+              <li> <a href="#">Work in progress</a></li>
+              <li> <a href="chi_siamo.html">Team</a></li>
+              <li> <a href="#">Contatti</a></li> 
+              
+
+
+
+             </ul>
+
+   
+
+
+         </div>
+ 	
+
+
+  <div id="titolo">
+  	
+  <p>COMPONENTI DEL GRUPPO</p>
+  </div>
+ 	
+
+
+
+
+  
+    <div id="immagini">
+         <div id="par1"> 
+
+         <img src="fede.jpg" onmouseover="fede()" 
+        onmouseout="pulisci1()" >
+         <p id="testo1" span style="font-size:16px;">Federico Panni</p>
+         </div>
+         
+         <div id="par2"> 
+         <img src="pietro.jpg" onmouseover="pie()" onmouseout="pulisci2()">
+         <p id="testo2" span style="font-size:16px;">Pietro Perret</p>
+         </div>
+
+         <div id="par3"> 
+         <img src="noce.jpg" onmouseover="noce()" onmouseout="pulisci3()">
+         <p id="testo3" span style="font-size:16px;">Noemi Gottardi</p>
+         </div>
+
+         <div id="par4"> 
+         <img src="maffi.jpg" onmouseover="marse()" onmouseout="pulisci4()">
+         <p id="testo4" span style="font-size:16px;">Marcello Maffi </p>
+         </div>
+
+         <div id="par4" > 
+         <img src="gabri.jpg" onmouseover="gabri()" onmouseout="pulisci5()">
+         <p id="testo5" span style="font-size:16px;">Gabriele Wiedenmann</p>
+         </div>
+
+    </div>
+
+
+ 
+
+ <footer id="footer" span style="margin-top: 200px">
+
+     <p>Laboratorio di Sintesi finale C1 - A.A. 2016/2017 </p>
+
+  
+ </footer>   
+
+    
+
+</body>
+
+
+ </html>
