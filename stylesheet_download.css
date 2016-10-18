@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand:400,700';
+
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: rgb(102,235,42);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Quicksand; 
+    font-size: 18px;
+   
+
+}
