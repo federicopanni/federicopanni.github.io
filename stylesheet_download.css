@@ -1,10 +1,35 @@
 @import 'https://fonts.googleapis.com/css?family=Quicksand:400,700';
 
 
+
+
+
+
+body {
+
+
+    
+    background-color: lightgrey;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+#titolo {text-align: center;
+         margin-top: 60px;
+         margin-bottom: 50px;
+         font-size: 25px;
+
+     }
+
 .button {
+    
     display: block;
     width: 115px;
-    height: 25px;
+    height: 20px;  
     background: rgb(102,235,42);
     padding: 10px;
     text-align: center;
@@ -14,6 +39,48 @@
     font-weight: normal;
     font-family: Quicksand; 
     font-size: 18px;
+    margin-right: 30px;
+    float: right;
+    vertical-align: middle;
+
    
+
+   
+
+}
+#main {
+    
+    display: table;
+
+}
+
+
+#descrizione {
+ 
+    display: table-cell;
+    vertical-align: middle;  
+    
+
+    
+}
+
+
+#logo {
+
+width: 100px;
+    height: auto;
+    float: left;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 30px;
+
+
+}
+#colonna1 {
+    width: 1000px;
+}
+#colonna2 {
+
+width: 500px;
 
 }
